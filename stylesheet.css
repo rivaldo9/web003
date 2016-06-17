@@ -367,11 +367,11 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 }
 
 .btn-dadinho{
-    color:white;
-    font-weight: bold;
+    	  color:black;
+    	  font-weight: bold;
 	  border-radius: 5px;
 	  border: 2px solid #6495ED;
-	  background-color: #BCD2EE;
+	  background-color: white;
 	  height: 50px;
 	  width: 120px;
 	  margin: auto;
