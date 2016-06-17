@@ -368,7 +368,6 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .btn-dadinho{
     	  color:black;
-    	  font-family:Courier;
     	  font-weight: bold;
 	  border-radius: 5px;
 	  border: 2px solid white;
@@ -376,7 +375,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 	  height: 50px;
 	  width: 120px;
 	  margin: auto;
-	  margin-left:10%;
+	  margin-left:35%;
 	  text-align: center;
 }
 }
