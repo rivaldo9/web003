@@ -92,36 +92,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             <button class="w3-btn w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Se inscreva já</button>
           </div>
         </div>
-     
-
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;filter: grayscale(90%);-webkit-filter: grayscale(90%);"></div>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-    
-function initialize() {
-var mapProp = {
-center:myCenter,
-zoom:12,
-scrollwheel:false,
-draggable:false,
-mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-    
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    
-var marker = new google.maps.Marker({
-position:myCenter,
-});
-    
-marker.setMap(map);
-}
-    
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-
 <script>
 // Automatic Slideshow - change image every 4 seconds
 var myIndex = 0;
