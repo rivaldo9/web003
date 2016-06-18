@@ -737,6 +737,229 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-opacity,.w3-hover-opacity:hover{opacity:0.60;filter:alpha(opacity=60)}
 .w3-text-shadow{text-shadow:1px 1px 0 #444}.w3-text-shadow-white{text-shadow:1px 1px 0 #ddd}
 
+
+
+
+
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(http://fonts.googleapis.com/css?family=Lato+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+
+/**************************
+      TÃ­tulos de seÃ§Ã£o
+***************************/
+.section-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  padding: 20px 30px 0px 30px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.line{
+  height: 10px;
+	width: 200px;
+	border-top: 2px solid  #ff3333;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0px;
+  margin-bottom: 50px;
+
+}
+
+/**************************
+      NavegaÃ§Ã£o
+***************************/
+#menu a.navbar-brand {
+text-transform: uppercase;
+font-size: 22px;
+color: #ffffff;
+font-weight: 900;
+}
+
+#menu .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+/**************************
+      Home
+***************************/
+#home {
+  background: -webkit-linear-gradient(#999999, #ffffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#999999, #ffffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#999999, #ffffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#999999, #ffffff); /* Standard syntax (must be last) */
+}
+
+.opi-logo {
+  display: inline;
+  width: 350px;
+  height: 350px;
+}
+
+/**************************
+      Parceiros
+***************************/
+.parceiros-logo {
+  width:200px;
+  height:200px;
+}
+
+.parceiros-logo-ufcg {
+  width:130px;
+  height:130px;
+}
+
+/**************************
+      Objetivo
+***************************/
+#objetivo {
+  background: -webkit-linear-gradient(left, red , blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#ffffff, #ffffff, #f2f2f2); /* Standard syntax (must be last) */
+}
+
+/**************************
+      TÃ­tulos de seÃ§Ã£o
+***************************/
+.twitter{
+	position: fixed;
+	right: -60px;
+	margin-right: -5px;
+	display: none;
+	margin-top: 13px;
+}
+
+.twitter_button{
+	position: fixed;
+	right: 0px;
+	margin-top: 55px;
+	margin-right: 0px;
+	display: none;
+}
+
+.btn-black          {
+	color: #ffffff;
+	background-color: #000000;
+	border-color: #555;
+	padding: 10px;
+}
+
+.btn-black:hover, .btn-black:focus, .btn-black:active{
+	color: #ffffff;
+	background-color: #000000;
+	border-color: #444;
+}
+
+/**************************
+      Contato
+***************************/
+#contato {
+  background: -webkit-linear-gradient(#999999, #ffffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#999999, #ffffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#999999, #ffffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, #e6e6e6, #fcfcfc); /* Standard syntax (must be last) */
+}
+
+.gmap-area {
+  background-image: url("../images/map.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+}
+
+.gmap-area .gmap iframe {
+  border-radius: 50%;
+  height: 280px;
+  width: 300px;
+}
+
+.gmap{
+    border: 10px solid #f6f5f0;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 3px 3px #e7e4dc;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.gmap-area .map-content ul {
+  list-style: none;
+}
+
+.gmap-area .map-content address h5{
+  font-weight: 700;
+  /* font-size: 16px; */
+}
+
+#contact-page{
+  padding-top: 0;
+}
+
+#contact-page .contact-form
+.form-group label {
+  color: #4E4E4E;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-group .form-control {
+  padding: 7px 12px;
+  border-color:#f2f2f2;
+  box-shadow: none;
+}
+
+textarea#message{
+  resize: none;
+  padding: 10px;
+}
+
+#contact-page .contact-wrap {
+  margin-top: 20px;
+}
+
+p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 28px; margin: 0 0 0px; }
+
+.text-justify {
+  text-align: justify;
+}
+
+.white {
+  color: white;
+}
+
+.fa {
+  font-size: 30px;
+}
+
+.nav-pills > li > a{
+  color: black;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+    background-color: #bfbfbf;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color: #595959;
+}
+
 *!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
